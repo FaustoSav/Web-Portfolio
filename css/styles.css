@@ -303,6 +303,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .projects-title-box {
@@ -391,7 +392,7 @@ nav {
 /* Contacto */
 
 .contacto {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     margin: 1rem auto;
     display: flex;
@@ -416,7 +417,7 @@ nav {
 
 .contact-info {
     width: 100%;
-    height: 90vh;
+    height: 90%;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -491,7 +492,7 @@ nav {
 }
 
 .redes-container {
-    margin-top: 10%;
+    /* margin-top: 10%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -534,6 +535,7 @@ nav {
 /* Footer */
 
 footer {
+    
     width: 100%;
     height: 80px;
     display: flex;
@@ -547,8 +549,8 @@ footer span {
     font-size: 1.2rem;
     letter-spacing: 2px;
     border-bottom: 1px solid white;
-    margin-bottom: 1rem;
-    margin-top: 15px;
+    /* margin-bottom: 1rem; */
+    /* margin-top: 15px; */
 }
 
 .footer-separador {
@@ -625,6 +627,9 @@ footer span {
         padding: .5rem 2rem;
         margin-bottom: 2.5%;
     }
+    .contacto{
+        height: 60vh;
+    }
 }
 
 @media (max-width: 768px) {
@@ -634,7 +639,7 @@ footer span {
         min-width: 360px;
         font-size: 12px;
     }
-    .home, .projects, .contacto {
+    .home, .projects {
         min-height: 600px;
     }
     .about {
@@ -712,6 +717,7 @@ footer span {
         width: 70%;
     }
     /* CONTACTO */
+   
     .contacto h3 {
         font-size: 4rem;
     }
